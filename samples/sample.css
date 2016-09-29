@@ -1,0 +1,112 @@
+/* 
+div.fTHLC-outer-wrapper div::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+div.fTHLC-outer-wrapper div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color:#10416c;
+}
+ 
+div.fTHLC-outer-wrapper div::-webkit-scrollbar-thumb {
+  background-color: #a1b4c5;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}*/
+
+
+/*IE*/
+
+div {
+    scrollbar-track-color: #10416c;
+    scrollbar-arrow-color: #10416c;
+    scrollbar-face-color: #a1b4c5;
+    /* border-radius: 10px;*/
+    /*scrollbar-shadow-color: #2D2C4D;
+scrollbar-highlight-color:#7D7E94;
+scrollbar-3dlight-color: #7D7E94;
+scrollbar-darkshadow-color: #2D2C4D;*/
+}
+
+thead th {
+    height: 65px;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 80px;
+    background: #10416c;
+    color: #ffffff;
+    border-right: 1px solid #10416c;
+}
+
+thead th:first-child {
+    width: 82px;
+}
+
+tbody th:not(:first-child) {
+    border-right: 1px solid #d1dde6;
+}
+
+tbody tr:nth-child(2n) {
+    background: #f2f6f8;
+}
+
+tbody tr:nth-child(2n) .fTHLC-left-col {
+    background: #f2f6f8;
+}
+
+tbody td {
+    word-break: break-all;
+    padding: 5px;
+    border: 0;
+    width: 100px;
+    vertical-align: top;
+}
+
+tbody td:not(.fTHLC-left-col) {
+    border-right: 1px solid #d1dde6;
+}
+
+.fTHLC-left-col {
+    border-right: 1px solid #d1dde6;
+}
+
+tbody td:first-child {
+    width: 80px;
+}
+
+div.fTHLC-outer-wrapper {
+    border: 1px solid #d1dde6;
+    margin: 50px auto;
+}
+
+div.fTHLC-inner-wrapper {
+    /*  border-left: 1px solid #d1dde6;
+  border-top: 1px solid #d1dde6;*/
+}
+
+div.fTHLC-outer-corner {
+    background-color: #ffffff;
+    border-right: 1px solid #d1dde6;
+    border-bottom: 1px solid#d1dde6;
+}
+
+table tr .cols {
+    background-color: #FFE4E1;
+}
+
+table tr .rows {
+    background-color: #E0FFFF;
+}
+
+.scroll-bar {
+    background: #a1b4c5;
+    height: 10px;
+    width: 30px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 8px;
+}
+.scroll-background{
+  background:#10416c;
+}
